@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body{
+  width: 100vw;
+  background-color: palevioletred;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bulb{
+    width: 20vmax;
+    height: 50vmin;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin: 5vh 0 0 0;
+}
+
+.heading{
+    font-weight: 900;
+    font-size: 3vw;
+    text-transform: capitalize;
+    word-spacing: 2vw;
+    letter-spacing: 0.5vw;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.buttons{
+    margin: 10vh 0 0 0;
+    display: flex;
+    gap: 10vw;
+}
+
+#red{
+    background-color: red;
+}
+
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+
+.same{
+    padding: 1vw;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.redme{
+    background-color: red;
+}
+
+.greenme{
+    background-color: green;
+}
+.blueme{
+    background-color: blue;
+}
+.yellowme{
+    background-color: yellow;
+}
+
+
+
